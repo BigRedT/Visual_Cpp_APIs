@@ -13,12 +13,6 @@ int Item::compareTo (Item x) {
 }
 
 int main(){
-	/*Item a(2);
-	Item b(1);
-	Item c(8);
-	Item d(4);
-	Item e(3);
-	Item itemArray[5]={a,b,c,d,e};*/
 	Item itemArray[N];
 	for(int i=0;i<N;i++) { itemArray[i].val=rand();}
 	Quicksort <Item> Q;
